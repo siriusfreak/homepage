@@ -22,6 +22,7 @@ check k8s:
   environment: production
   stage: check
   script:
+     - echo $KUBECONFIG
      - kubectl config get-contexts
      - kubectl config use-context siriusfreak-cloud/homeserver:homeserver
      - kubectl get pods
