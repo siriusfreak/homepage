@@ -1,6 +1,6 @@
-Hello, my prefer name is Sirius. 
+Hello, my preffered name is Sirius
 
-But also I known as Ivliev Sergey Andreevich.
+But also I known as Ivliev Sergey Andreevich
 
 Phone: [+7 915 193 39 65](callto:+79151933965)
 
