@@ -1,9 +1,39 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Sunny comming soon</title>
-        <link>https://siriusfrk.ru/</link>
-        <description>Sunny comming soon</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language>
-            <atom:link href="https://siriusfrk.ru/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sunny comming soon</title>
+    <link>https://siriusfrk.ru/</link>
+    <description>Recent content on Sunny comming soon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://siriusfrk.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://siriusfrk.ru/phd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://siriusfrk.ru/phd/</guid>
+      <description> FullText Abstract </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://siriusfrk.ru/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://siriusfrk.ru/publications/</guid>
+      <description>ENG Suvorov M., Ivliev S., Markarian G., Kolev D., Zvikhachevskiy D., Angelov P. (2013) OSA: One-Class Recursive SVM Algorithm with Negative Samples for Fault Detection. In: Mladenov V., Koprinkova-Hristova P., Palm G., Villa A.E.P., Appollini B., Kasabov N. (eds) Artificial Neural Networks and Machine Learning – ICANN 2013. ICANN 2013. Lecture Notes in Computer Science, vol 8131. Springer, Berlin, Heidelberg https://doi.org/10.1007/978-3-642-40728-4_25 M. Suvorov, S. Ivliev, G. Markarian, D. Kolev, D. Zvikhachevskiy and P.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://siriusfrk.ru/wishlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://siriusfrk.ru/wishlist/</guid>
+      <description>I wish that the world would be better
+If you want to give me a present, then just donate to some charity organization that makes people&amp;rsquo;s lives better
+If you still want to give me something other, please let it be something that helps me remember you</description>
+    </item>
+    
+  </channel>
 </rss>

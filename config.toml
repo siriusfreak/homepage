@@ -21,6 +21,11 @@ theme = "LoveIt"
     title = "PhD"
     weight = 1
   [[menu.main]]
+    name = "Wishlist"
+    url = "wishlist"
+    title = "Wishlist"
+    weight = 1
+  [[menu.main]]
     name = "CV"
     url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/edit#heading=h.y6sn8imv08xf"
     

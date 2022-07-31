@@ -2,7 +2,11 @@ Hello, my preffered name is Sirius
 
 But also I known as Ivliev Sergey Andreevich
 
-Phone: [+7 915 193 39 65](callto:+79151933965)
+Senior GoLang Engineer at [GFG](https://global-fashion-group.com/), search branch
+
+Berlin, Germany
+
+Phone: [+49 152 08335740](callto:+4915208335740) (EU) / [+7 915 193 39 65](callto:+79151933965) (RUS)
 
 e-mail: siriusfrk@gmail.com
 
