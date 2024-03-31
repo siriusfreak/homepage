@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://siriusfrk.ru/</loc><priority>0</priority></url><url>
-            <loc>https://siriusfrk.ru/phd/</loc><priority>0</priority></url><url>
-            <loc>https://siriusfrk.ru/publications/</loc><priority>0</priority></url><url>
-            <loc>https://siriusfrk.ru/wishlist/</loc><priority>0</priority></url><url>
-            <loc>https://siriusfrk.ru/categories/</loc></url><url>
-            <loc>https://siriusfrk.ru/tags/</loc></url></urlset>
+            <loc>https://siriusfrk.me/</loc><lastmod>2024-03-31T22:02:43&#43;02:00</lastmod></url><url>
+            <loc>https://siriusfrk.me/posts/</loc><lastmod>2024-03-31T22:02:43&#43;02:00</lastmod></url><url>
+            <loc>https://siriusfrk.me/phd/</loc></url><url>
+            <loc>https://siriusfrk.me/publications/</loc></url><url>
+            <loc>https://siriusfrk.me/wishlist/</loc></url><url>
+            <loc>https://siriusfrk.me/categories/</loc></url><url>
+            <loc>https://siriusfrk.me/tags/</loc></url></urlset>

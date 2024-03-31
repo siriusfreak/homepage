@@ -1,4 +1,4 @@
-baseURL = 'https://siriusfrk.ru/'
+baseURL = 'https://siriusfrk.me/'
 languageCode = 'en-us'
 title = 'Sunny comming soon'
 
@@ -22,12 +22,12 @@ theme = "LoveIt"
     weight = 1
   [[menu.main]]
     name = "Wishlist"
-    url = "wishlist"
+    url = "/wishlist"
     title = "Wishlist"
     weight = 1
   [[menu.main]]
     name = "CV"
-    url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/edit#heading=h.y6sn8imv08xf"
+    url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
     
 # Markup related configuration in Hugo
 [markup]

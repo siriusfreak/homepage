@@ -1,1 +1,6 @@
 .DS_STORE
+.idea
+
+/deploy/backend-config.tfvars
+*.terraform
+*.lock.hcl
