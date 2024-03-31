@@ -4,3 +4,4 @@
 /deploy/backend-config.tfvars
 *.terraform
 *.lock.hcl
+public
