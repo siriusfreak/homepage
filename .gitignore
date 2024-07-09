@@ -5,4 +5,5 @@
 *.terraform
 *.lock.hcl
 public
+resources
 .hugo_build.lock

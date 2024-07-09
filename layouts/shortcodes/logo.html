@@ -1,0 +1,2 @@
+{{ $image := resources.GetRemote (.Get "src") }}
+<img src="{{ $image.Permalink }}" alt="{{ .Get "alt" }}" style="height:25px; margin: 25px;">

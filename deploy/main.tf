@@ -4,6 +4,30 @@ resource "kubernetes_namespace" "homepage" {
     }
 }
 
+data "external" "git" {
+    program = [
+        "git",
+        "log",
+        "--pretty=format:{ \"sha\": \"%H\" }",
+        "-1",
+        "HEAD"
+    ]
+}
+
+locals {
+    name = "homepage"
+    tag = data.external.git.result.sha
+    image = "registry.i.siriusfrk.ru/${local.name}:${local.tag}"
+}
+
+resource "docker_image" "image" {
+    name = local.image
+    build {
+        context    = ".."
+        dockerfile = "deploy/Dockerfile"
+        platform = "linux/amd64"
+    }
+}
 
 resource "kubernetes_deployment_v1" "homepage" {
     metadata {
@@ -16,14 +40,14 @@ resource "kubernetes_deployment_v1" "homepage" {
 
         selector {
             match_labels = {
-                app = "homepage"
+                app = local.name
             }
         }
 
         template {
             metadata {
                 labels = {
-                    app = "homepage"
+                    app = local.name
                 }
             }
 
@@ -32,8 +56,8 @@ resource "kubernetes_deployment_v1" "homepage" {
                     "siriusfrk.me/location" = "berlin"
                 }
                 container {
-                    image = "registry.i.siriusfrk.ru/homepage:latest"
-                    name = "homepage"
+                    image = local.image
+                    name = local.name
                     image_pull_policy = "Always"
                 }
             }

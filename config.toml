@@ -1,33 +1,87 @@
-baseURL = 'https://siriusfrk.me/'
-languageCode = 'en-us'
-title = 'Sunny comming soon'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
+languageCode = 'en-us'
+
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.ru]
+    contentDir = 'content/ru'
+    disabled = false
+    languageCode = 'ru-RU'
+    languageDirection = 'ltr'
+    languageName = 'Русский'
+    title = 'Скоро будет солнечно'
+    weight = 1
+    [languages.ru.params]
+      subtitle = 'Скоро будет солнечно'
+  [languages.en]
+    contentDir = 'content'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Sunny comming soon'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Sunny comming soon'
+
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  [params.page.code]
+    maxShownLines = -1
+  [params.home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = "siriusfrk@gmail.com"
+    # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+    title = ""
+    # subtitle shown in home page (HTML format is supported)
+    typeit = true
+    # whether to show social links
+    social = true
+    # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+    disclaimer = ""
+    [params.social]
+      GitHub = "siriusfreak"
+      Linkedin = "siriusfreak"
+      Instagram = "siriusfreak"
+      Telegram = "siriusfreak"
+      Gitlab = "siriusfreak"
+      ORCID = "0000-0002-2860-2711"
+      Phone = "+4915208335740"
+      Email = "siriusfrk@gmail.com"
+
 
 [menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    title = "Posts"
+    weight = 1
   [[menu.main]]
     name = "Publications"
     url = "/publications"
     title = "Publications"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "PhD"
     url = "/phd"
     title = "PhD"
-    weight = 1
+    weight = 3
   [[menu.main]]
     name = "Wishlist"
     url = "/wishlist"
     title = "Wishlist"
-    weight = 1
+    weight = 4
   [[menu.main]]
     name = "CV"
     url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
+    weight = 5
     
 # Markup related configuration in Hugo
 [markup]
