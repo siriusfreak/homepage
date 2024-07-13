@@ -29,7 +29,15 @@ resource "docker_image" "image" {
     }
 }
 
+resource "docker_registry_image" "pushed" {
+    name = local.image
+    depends_on = [docker_image.image]
+    keep_remotely = false
+}
+
+
 resource "kubernetes_deployment_v1" "homepage" {
+    depends_on = [docker_image.image]
     metadata {
         name = "homepage"
         namespace = kubernetes_namespace.homepage.metadata[0].name
