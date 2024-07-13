@@ -29,6 +29,10 @@ defaultContentLanguageInSubdir = true
     [languages.en.params]
       subtitle = 'Sunny comming soon'
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-ZBEEMKBLPD'
+
 [params]
   # LoveIt theme version
   version = "0.2.X"
