@@ -28,7 +28,6 @@ defaultContentLanguageInSubdir = false
     [languages.en.params]
       subtitle = 'Sunny comming soon'
 
-
 [params]
   # LoveIt theme version
   version = "0.2.X"
