@@ -29,10 +29,6 @@ defaultContentLanguageInSubdir = true
     [languages.en.params]
       subtitle = 'Sunny comming soon'
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-ZBEEMKBLPD'
-
 [params]
   # LoveIt theme version
   version = "0.2.X"
@@ -67,11 +63,6 @@ defaultContentLanguageInSubdir = true
     url = "/posts"
     title = "Posts"
     weight = 1
-  [[menu.main]]
-    name = "Publications"
-    url = "/publications"
-    title = "Publications"
-    weight = 2
   [[menu.main]]
     name = "PhD"
     url = "/phd"
