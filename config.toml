@@ -9,6 +9,7 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 [languages]
   [languages.ru]
+    baseURL = 'https://siriusfrk.ru/'
     contentDir = 'content/ru'
     disabled = false
     languageCode = 'ru-RU'
@@ -19,6 +20,7 @@ defaultContentLanguageInSubdir = true
     [languages.ru.params]
       subtitle = 'Скоро будет солнечно'
   [languages.en]
+    baseURL = 'https://siriusfrk.me/'
     contentDir = 'content'
     disabled = false
     languageCode = 'en-US'
