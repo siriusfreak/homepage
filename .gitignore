@@ -1,9 +1,14 @@
 .DS_STORE
 .idea
 
-/deploy/backend-config.tfvars
-*.terraform
-*.lock.hcl
 public
 resources
 .hugo_build.lock
+
+/deploy/secrets_backend.tfvars
+/deploy/secrets.tfvars
+/deploy/secrets.tf
+/deploy/providers.tf
+/deploy/backend.tf
+/deploy/.terraform.lock.hcl
+/deploy/.terraform/
