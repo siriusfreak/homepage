@@ -1,3 +1,7 @@
+---
+title: "Wishlist"
+---
+
 I wish that the world would be better
 
 If you want to give me a present, then just donate to some charity organization that makes people's lives better

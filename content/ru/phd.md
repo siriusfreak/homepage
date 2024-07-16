@@ -1,3 +1,7 @@
+---
+title: "Диссер"
+---
+
 
 1. [Полный текст](/phd/full_diss.pdf)
 2. [Абстракт](/phd/abstract.pdf)

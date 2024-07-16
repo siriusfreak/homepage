@@ -1,0 +1,7 @@
+<p><a href="https://docs.google.com/document/d/{{ .Get "url" }}/export?format=pdf" target="_blank"><i class="fas fa-file-pdf" style="font-size: 50px;"></i> </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://docs.google.com/document/d/{{ .Get "url" }}/export?format=docx" target="_blank"><i class="fas fa-file-word" style="font-size: 50px;"></i> </a></p>
+<iframe src="https://docs.google.com/document/d/{{ .Get "url" }}/view?rm=minimal"
+        width="{{ .Get "width" | default "100%" }}" height="{{ .Get "height" | default "600px" }}"
+        frameborder="0" allowfullscreen
+></iframe>
+

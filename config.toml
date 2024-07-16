@@ -3,6 +3,8 @@
 theme = "LoveIt"
 
 languageCode = 'en-us'
+title = 'Sunny comming soon'
+
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
@@ -15,8 +17,10 @@ defaultContentLanguageInSubdir = false
     languageName = 'Русский'
     title = 'Скоро будет солнечно'
     weight = 2
-    [languages.ru.params]
+    [languages.ru.params.home.profile]
       subtitle = 'Скоро будет солнечно'
+    [languages.ru.params.header.title]
+      name = 'Скоро будет солнечно'
     [languages.ru.menus]
       [[languages.ru.menus.main]]
         name = "Посты"
@@ -35,7 +39,8 @@ defaultContentLanguageInSubdir = false
         weight = 4
       [[languages.ru.menus.main]]
         name = "Резюме"
-        url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
+        url = "/cv"
+        title = "Резюме"
         weight = 5
   [languages.en]
     baseURL = 'https://siriusfrk.me/'
@@ -45,12 +50,36 @@ defaultContentLanguageInSubdir = false
     languageName = 'English'
     title = 'Sunny comming soon'
     weight = 1
-    [languages.en.params]
+    [languages.en.params.home.profile]
       subtitle = 'Sunny comming soon'
-
+    [languages.en.params.header.title]
+      name = 'Sunny comming soon'
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = "Posts"
+        url = "/posts"
+        title = "Posts"
+        weight = 1
+      [[languages.en.menus.main]]
+        name = "PhD"
+        url = "/phd"
+        title = "PhD"
+        weight = 3
+      [[languages.en.menus.main]]
+        name = "Wishlist"
+        url = "/wishlist"
+        title = "Wishlist"
+        weight = 4
+      [[languages.en.menus.main]]
+        name = "CV"
+        url = "/cv"
+        title = "CV"
+        weight = 5
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  gitRepo = "https://github.com/siriusfreak/homepage"
+  title = "Sunny comming soon"
   [params.page.code]
     maxShownLines = -1
   [params.home.profile]
@@ -76,26 +105,6 @@ defaultContentLanguageInSubdir = false
       Email = "siriusfrk@gmail.com"
 
 
-[menu]
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts"
-    title = "Posts"
-    weight = 1
-  [[menu.main]]
-    name = "PhD"
-    url = "/phd"
-    title = "PhD"
-    weight = 3
-  [[menu.main]]
-    name = "Wishlist"
-    url = "/wishlist"
-    title = "Wishlist"
-    weight = 4
-  [[menu.main]]
-    name = "CV"
-    url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
-    weight = 5
 
 
     
