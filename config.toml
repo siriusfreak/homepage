@@ -17,6 +17,26 @@ defaultContentLanguageInSubdir = false
     weight = 2
     [languages.ru.params]
       subtitle = 'Скоро будет солнечно'
+    [languages.ru.menus]
+      [[languages.ru.menus.main]]
+        name = "Посты"
+        url = "/posts"
+        title = "Посты"
+        weight = 1
+      [[languages.ru.menus.main]]
+        name = "Диссер"
+        url = "/phd"
+        title = "Диссер"
+        weight = 3
+      [[languages.ru.menus.main]]
+        name = "Вишлист"
+        url = "/wishlist"
+        title = "Вишлист"
+        weight = 4
+      [[languages.ru.menus.main]]
+        name = "Резюме"
+        url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
+        weight = 5
   [languages.en]
     baseURL = 'https://siriusfrk.me/'
     contentDir = 'content'
@@ -76,6 +96,8 @@ defaultContentLanguageInSubdir = false
     name = "CV"
     url = "https://docs.google.com/document/d/144KpDzYzrY5QIi4mlA4FLEnj3NdSFjlWtu-LXhzXThw/view"
     weight = 5
+
+
     
 # Markup related configuration in Hugo
 [markup]
