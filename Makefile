@@ -14,7 +14,11 @@ push:
 
 .PHONY: deploy
 deploy:
-	cd deploy && terraform init -backend-config=backend-config.tfvars && terraform apply -auto-approve && kubectl --context microk8s-cluster -n homepage rollout restart deployment homepage
+	@echo "Manifests are k8s/homepage in home-infrastructure: commit there, then Sync in Argo CD."
+
+.PHONY: rollout
+rollout:
+	kubectl --context microk8s -n homepage rollout restart deployment homepage
 
 .PHONY: all
 all: build image push deploy
