@@ -1,4 +1,4 @@
-IMAGE_NAME = "registry.i.siriusfrk.ru/homepage:latest"
+IMAGE_NAME = "registry.i.siriusfrk.me/homepage:latest"
 
 .PHONY: build
 build:
